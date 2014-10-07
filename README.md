@@ -4,12 +4,12 @@ A statsd client for Go.
 
 ## Get the code
 
-    $ go get github.com/xsleonard/go-statsd
+    $ go get github.com/xsleonard/go-statsd-x
 
 ## Usage
 
     // Create the client
-    c, err := statsd.New("127.0.0.1:8125")
+    c, err := statsdx.New("127.0.0.1:8125")
     if err != nil {
       log.Fatal(err)
     }
@@ -26,7 +26,7 @@ Run the tests with:
 
 ## Documentation
 
-Please see: http://godoc.org/github.com/xsleonard/go-statsd
+Please see: http://godoc.org/github.com/xsleonard/go-statsd-x
 
 ## License
 
